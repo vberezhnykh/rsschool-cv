@@ -2,5 +2,5 @@
 ## Valentin Berezhnykh
 ## Contact Info
 * E-mail: vberezhnykh74@gmail.com
-* GitHub: @vberezhnykh
-* Telegram: @vaberezhnykh
+* GitHub: [vberezhnykh](https://github.com/vberezhnykh)
+* Telegram: [vaberezhnykh](https://t.me/vaberezhnykh)
