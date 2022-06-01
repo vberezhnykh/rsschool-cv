@@ -3,7 +3,7 @@
 * E-mail: vberezhnykh74@gmail.com
 * GitHub: [vberezhnykh](https://github.com/vberezhnykh)
 * Telegram: [vaberezhnykh](https://t.me/vaberezhnykh)
-* Discord: Valentin @vberezhnykh
+* Discord: Valentin(@vberezhnykh)
 ## About Me
 I am a practicing lawyer who is going to change the field of activity and become a front-end developer. I have almost zero experience in programming, however, I am used to learning a lot, so my goal in the next 12 months is to study hard in order to become a junior fron-end developer.
 ## Skills
@@ -34,7 +34,7 @@ convertToF(30);
 ## Education
 * Higher School of Economics, Law (2017)
 * freeCodeCamp, [Responsive Web Design](https://www.freecodecamp.org/certification/vberezhnykh/responsive-web-design) (2022)
-* RS School, JS/FE Pre-School 2022Q2 (in progress)
+* RS School, [JS/FE Pre-School 2022Q2](https://rs.school/js-stage0/) (in progress)
 ## Languages
 * Russian - Native
 * English - Intermediate (B1)
