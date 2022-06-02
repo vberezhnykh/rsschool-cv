@@ -8,6 +8,7 @@ body {
 
 main, footer {
     border: 1px solid black;
+    display: flex;
 }
 
 header {
@@ -35,6 +36,8 @@ header {
 .nav-item a:hover {
     background-color: blue;
     color: white;
+    transition: 0.3s linear
+    /*add smooth animation*/
 }
 
 .nav-link {
@@ -44,6 +47,11 @@ header {
     font-weight: bold;
     display: block;
     padding: 14px 10px;
+}
+
+.img-profile {
+    width: 350px;
+    border-radius: 50%;
 }
 
 .section {
