@@ -8,7 +8,7 @@
 
 * {
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: Roboto, sans-serif;
     color: var(--text-color);
 }
 
@@ -28,6 +28,23 @@ body {
 
 main, footer {
     display: flex;
+}
+
+section {
+    padding-left: 30px;
+}
+
+.section-img-profile {
+    padding-left: 0;
+}
+
+h1, h2 {
+    color: var(--additional-color);
+}
+
+h1 {
+    font-size: 60px;
+    margin-bottom: 0;
 }
 
 .header {
@@ -86,18 +103,6 @@ main, footer {
     margin: 30px auto;
 }
 
-section {
-    padding-left: 30px;
-}
-
-h1, h2 {
-    color: var(--additional-color);
-}
-
-h1 {
-    font-size: 60px;
-    margin-bottom: 0;
-}
 .first-name {
     color: var(--text-color);
 }
@@ -162,7 +167,6 @@ h1 {
 
 
 .education-url {
-    padding-left: 10px;
     text-decoration: none;
     color: var(--text-color);
 }

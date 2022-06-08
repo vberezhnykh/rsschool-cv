@@ -6,24 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header">
-        <nav class="nav-list">
-            <li class="nav-item"><a class="nav-link" href="#contact-info">Contact Info</a></li>
-            <li class="nav-item"><a class="nav-link"href="#summary">About Me</a></li>
-            <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-            <li class="nav-item"><a class="nav-link" href="#code">Code Example</a></li>
-            <li class="nav-item"><a class="nav-link" href="#work-experience">Projects</a></li>
-            <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
-            <li class="nav-item"><a class="nav-link" href="#languages">Languages</a></li>
+        <nav>
+            <ul class="nav-list">
+                <li class="nav-item"><a class="nav-link" href="#contact-info">Contact Info</a></li>
+                <li class="nav-item"><a class="nav-link" href="#summary">About Me</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="#code">Code Example</a></li>
+                <li class="nav-item"><a class="nav-link" href="#work-experience">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                <li class="nav-item"><a class="nav-link" href="#languages">Languages</a></li>
+            </ul>
         </nav>
     </header>
     <main class="main">
         <div class="left-side">
-            <section class="section">
+            <div class="section-img-profile">
                 <img class="img-profile" src="assets/img/profile-picture.JPG" alt="profile picture">
-            </section>
+            </div>
             <section class="section" id="contact-info">
                 <h2>Contact Info</h2>
                 <ul class="contact-list">
@@ -41,7 +46,7 @@
                     </li>
                     <li class="contact-item">
                         <div class="conact-logo"><img src="assets/svg/discord-logo.png" alt=""></div>
-                        <div class="contact-url"><a class="contact-url" href="" target="_blank">@vberezhnykh</a></div>
+                        <div class="contact-url"><a class="contact-url" href="" target="_blank">@Валентин#4480</a></div>
                     </li>
                 </ul>
             </section>
@@ -137,11 +142,11 @@
                     <span class="grey-text">// Change the inputs below to test your code</span>
                     even_or_odd(31);
                     </code>
+                    </pre>
                 </div>
                 <div class="code-block">
-                </pre>
                 <pre>
-                  <code>
+                <code>
                     function convertToF(celsius) {
                         let fahrenheit = celsius * (9 / 5) + 32;
                         return fahrenheit;
@@ -149,7 +154,7 @@
     
                     <span class="grey-text">// Change the inputs below to test your code</span>
                     convertToF(30);
-                  </code>
+                </code>
                 </pre>
                 </div>
             </section>
@@ -162,7 +167,7 @@
     </main>
     <footer class="footer">
         <a href="https://github.com/vberezhnykh" target="_blank"><img src="assets/svg/github-blue-logo.png" alt="GitHub logo"></a>
-        <p>2022</p>
+        <p><b>2022</b></p>
         <a href="https://rs.school/js-stage0/" target="_blank"><img src="assets/svg/rs-school-logo.svg" alt="course logo" width="64"></a>
     </footer>
 </body>
